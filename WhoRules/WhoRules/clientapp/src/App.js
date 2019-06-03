@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import styled from 'tachyons-components'
+import styled from 'tachyons-components';
+import {DefaultRoute} from './components/routeTemplates/defaultRoute';
+
 const Button = styled('button')`
   f6 f5-ns fw6 dib ba
   b--black-20 bg-blue white
@@ -11,6 +13,17 @@ const Button = styled('button')`
 function App() {
   return (
       <div className="App">
+          <DefaultRoute exact path="/" body={Button}/>
+      </div>
+  );
+}
+
+export default App;
+
+/*
+  <div className="App">
+          <header/>
+
           <Button mr2>Hello</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -27,7 +40,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+ */
