@@ -10,11 +10,16 @@ const Button = styled('button')`
   ph3 ph4-ns pv2 pv3-ns br2
   grow no-underline
 `;
+
+const StyledApp = styled('div')`flex`;
+const StyledRoute = styled('DefaultRoute')`flex`;
+
 function App() {
   return (
-      <div className="App">
+      <StyledApp className="App">
+
           <DefaultRoute exact path="/" body={Button}/>
-      </div>
+      </StyledApp>
   );
 }
 

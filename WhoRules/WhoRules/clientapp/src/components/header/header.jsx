@@ -12,6 +12,7 @@ import styled from 'tachyons-components';
 const StyledToolBar = styled('Toolbar')`flex flex-row justify-between`;
 const StyledImg = styled('img')`self-center`;
 const StyledPageLinksNavContainer = styled('div')`flex`;
+
 const Header = () => {
   
     return (
