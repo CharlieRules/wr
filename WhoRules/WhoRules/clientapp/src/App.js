@@ -18,7 +18,16 @@ function App() {
   return (
       <StyledApp className="App">
 
-          <DefaultRoute exact path="/" body={Button}/>
+          <DefaultRoute exact path="/" body={Button} />
+          {
+              /*
+               <DefaultRoute exact path="about" body={Button} />
+               <DefaultRoute exact path="brands" body={Button} />
+               <DefaultRoute exact path="contact" body={Button} />
+               <DefaultRoute exact path="shop" body={Button} />
+               */
+          }
+          
       </StyledApp>
   );
 }

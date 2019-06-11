@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom';
 import Header from '../header/header';
 import styled from 'tachyons-components';
 
-const StyledHeaderContainer = styled(`div`)`flex`;
+const StyledHeaderContainer = styled(`div`)`flex h4`;
 const StyledBodyContainer = styled(`div`)`flex`;
 const StyledFooterContainer = styled(`div`)`flex`;
 
